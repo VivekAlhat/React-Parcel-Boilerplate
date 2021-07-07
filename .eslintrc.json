@@ -1,0 +1,15 @@
+{
+    "extends": ["eslint:recommended", "prettier"],
+    "plugins": ["react"],
+    "parserOptions": {
+        "ecmaVersion": 2021,
+        "sourceType": "module",
+        "ecmaFeatures": { "jsx": true }
+    },
+    "env": { "es6": true, "browser": true, "node": true },
+    "rules": {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "no-unused-vars": "warn"
+    }
+}
