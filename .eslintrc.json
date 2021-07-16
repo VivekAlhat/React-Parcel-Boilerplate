@@ -8,7 +8,8 @@
 		"prettier"
     	],
     	"plugins": ["react", "import", "jsx-a11y"],
-    	"parserOptions": {
+    	"parser": "@babel/eslint-parser",
+	"parserOptions": {
         	"ecmaVersion": 2021,
         	"sourceType": "module",
         	"ecmaFeatures": { "jsx": true }
